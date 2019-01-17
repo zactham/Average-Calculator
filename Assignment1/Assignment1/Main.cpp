@@ -5,8 +5,8 @@ int average(int nums[]);
 int main()
 {
 	int size = 1;
-	double total = 0;
-	double average = 0;
+	float total = 0;
+	float average = 0;
 	std::cout << "How many numbers would you like to enter?" << std::endl;
 	std::cin >> size;
 	for (int index = 0; index < size; index++)
